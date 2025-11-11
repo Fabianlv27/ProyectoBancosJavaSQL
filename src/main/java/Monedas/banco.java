@@ -39,7 +39,7 @@ public static ArrayList<String> GetBancos(){
 		 Sschema.execute();
 		conn.commit();
 		
-		Schema_Actual=Nombre;
+		//Schema_Actual=Nombre;
 		
 	}catch(SQLException e) {
 		System.out.println(e.getMessage());
